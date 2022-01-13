@@ -28,7 +28,7 @@ do{
 
 for($i = 0; $i -lt $NbPlayer; $i++) {
 	$name = Read-Host "Enter name of player" ($i+1)
-	$tabGame += New-Object -TypeName psobject -Property @{Name=$name; tab = 0, 0, 0, 0, 0, 0, 0, 0, 0; score = 0}
+	$tabGame += New-Object -TypeName psobject -Property @{Name=$name; tab = 0, 0, 0, 0, 0, 0, 0, 0, 0; score = 45}
 }
 
 ####################      GAME      ####################
